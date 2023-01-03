@@ -41,6 +41,12 @@ ul{
     padding: 100px;
 }
 
+.second-quarter{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
 .blurb{
     display:flex;
     flex-direction: column;
