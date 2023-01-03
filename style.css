@@ -27,3 +27,16 @@ ul{
     gap: 24px;
     list-style-type: none;
 }
+
+.headshot{
+    height: 200px;
+    width: auto;
+}
+
+.first-quarter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 100px;
+}
