@@ -70,6 +70,7 @@ button{
     height: 45px;
     border-radius: 10px;
     padding: 5px 25px;
+    border-style: none;
 }
 
 h1{
@@ -87,7 +88,6 @@ h1{
     border-radius: 10px;
     margin: 10px;
     padding: 0px;
-    background-clip: ;
     
 }
 
@@ -120,4 +120,17 @@ h1{
 
 .image4{
     background-image: url("https://images.pexels.com/photos/6124026/pexels-photo-6124026.jpeg");
+}
+
+.image-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:154px;
+    max-width: 154px;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
 }
