@@ -48,10 +48,44 @@ ul{
     padding: 20px;
 }
 
+.third-quarter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+    min-width: 600px;
+    max-width: 600px;
+    flex-wrap: wrap;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
+.quote > h3{
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.quote > p{
+    padding: 0;
+    margin: 0;
+}
+
 .images{
     display: flex;
     justify-content: center;
-    padding: 0px 80px 80px 80px;
+    padding: 0px 80px 70px 80px;
 }
 
 .blurb{
