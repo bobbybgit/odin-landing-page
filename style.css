@@ -77,3 +77,47 @@ h1{
     font-size: 48px;
     margin: 8px;
 }
+
+.image > img{
+    width: 150px;
+    height: auto;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+    background-clip: ;
+    
+}
+
+.image{
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+    background-size: 160px 160px;
+    background-position: center; 
+}
+
+.image1{
+    background-image: url("https://images.pexels.com/photos/12000236/pexels-photo-12000236.jpeg");
+}
+
+.image2{
+    background-image: url("https://images.pexels.com/photos/2551452/pexels-photo-2551452.jpeg");
+}
+
+.image3{
+    background-image: url("https://images.pexels.com/photos/4271169/pexels-photo-4271169.jpeg");
+}
+
+.image4{
+    background-image: url("https://images.pexels.com/photos/6124026/pexels-photo-6124026.jpeg");
+}
